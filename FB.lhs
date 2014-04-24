@@ -33,10 +33,10 @@ Definitions of all tests that will be run for this program:
 > tests =
 >     [
 >      testGroup "Program examples" [
->                       testCase "number 3" test_number_3
->                     , testCase "number 5" test_number_5
+>                       testCase "number 3"  test_number_3
+>                     , testCase "number 5"  test_number_5
 >                     , testCase "number 15" test_number_15
->                     , testCase "number 8" test_number_8
+>                     , testCase "number 8"  test_number_8
 >                    ],
 >      testGroup "Program properties" [
 >                       testProperty "Fizz"     prop_fizz
@@ -48,10 +48,10 @@ Definitions of all tests that will be run for this program:
 
 Unit tests:
 
-> test_number_3 = assertEqual "for (toFizzBuzz 3)," "Fizz" (fizzBuzz 3)
-> test_number_5 = assertEqual "for (toFizzBuzz 5)," "Buzz" (fizzBuzz 5)
+> test_number_3  = assertEqual "for (toFizzBuzz 3),"  "Fizz"     (fizzBuzz 3)
+> test_number_5  = assertEqual "for (toFizzBuzz 5),"  "Buzz"     (fizzBuzz 5)
 > test_number_15 = assertEqual "for (toFizzBuzz 15)," "FizzBuzz" (fizzBuzz 15)
-> test_number_8 = assertEqual "for (toFizzBuzz 8)," "8" (fizzBuzz 8)
+> test_number_8  = assertEqual "for (toFizzBuzz 8),"  "8"        (fizzBuzz 8)
 
 
 Property tests:
