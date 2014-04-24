@@ -1,4 +1,4 @@
-# Fizz Buzz - a *tested* demonstration in Haskell
+# A Fizz Buzz in Haskell
 
 This implementation of FizzBuzz is intended to demonstrate basic
 Haskell syntax. Additionall, it demonstrates:
